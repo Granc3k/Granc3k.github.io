@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapitán Vojta</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload=onLoad()>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about" onclick="openTab('about')"><img src="./images/panel_about.png" width="300" height="100"></a></li>
+                <li><a href="#stream" onclick="openTab('stream')"><img src="./images/panel_twitch.png" width="300" height="100"></a></li>
+                <li><a href="#ateam" onclick="openTab('a-team')"><img src="./images/panel_ateam.png" width="300" height="100"></a></li>
+                <li><a href="#contact" onclick="openTab('contact')"><img src="./images/panel_contact.png" width="300" height="100"></a></li>
+                <!--<li><a href="#kontakt"><button class="btn btn-primary" onclick="openTab('kontakt')">Contact</button></a></li>-->
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+    <section id="about" class="tabcontent">
+        <h1 class="heading">O mě</h1>
+        Jsem Kapitan_Vojta, je mi 21 let a pocházím ze Šumperka a bydlím v Praze. <br>
+        Jsem extrémně friendly, ale taky miluju silnej sarkasmus. <br>
+        Spojuji lidi do komunity, kterým říkáme Kapitáni, kteří jsou velkou součástí streamu.
+    </section>
+
+    <section id="stream" class="tabcontent">
+        <h1 class="heading">Stream</h1>
+        Tady bude informace o streamování Kapitána Vojty.
+        Zde je náhled na živý stream Kapitána Vojty 
+        
+        <!-- Stream a chat-->
+        <!-- potřeba dodat url za "parent="-->
+        <div class="twitch-container">
+            <div class="twitch-stream">
+                <iframe src="https://player.twitch.tv/?channel=kapitan_vojta&parent=dev.twitch.tv" height="720" width="1280"
+                    frameborder="0" scrolling="no" allowfullscreen="true">
+                </iframe>
+            </div>
+            <div class="twitch-chat">
+                <iframe frameborder="0" scrolling="no" id="chat_embed"
+                    src="https://www.twitch.tv/embed/kapitan_vojta/chat?parent=dev.twitch.tv" height="720" width="400">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="a-team" class="tabcontent contact">
+        <h1 class="heading">A-TEAM</h1>
+        Zde jsou vypsáni členi aktuálního A-TEAMu.
+        <table id="ateam-table">
+            <tr>
+                <th>Nick</th>
+                <th>Role</th>
+                <th>Kontakt</th>
+            </tr>
+            <tr>
+                <td>Kapitán Vojta</td>
+                <td><p class="streamer">Streamer</p></td>
+                <td><img src ="./images/discord-icon.png" width="20" height="20"> <a href="#" onclick="copyToClipboard('kapitan__vojta')">kapitan__vojta</a></td>
+            </tr>
+            <tr>
+                <td>cpt_Granc3k</td>
+                <td><p class="hlmod">Hlavní Moderátor</p></td>
+                <td><img src ="./images/discord-icon.png" width="20" height="20"> <a href="#" onclick="copyToClipboard('Granc3k')">Granc3k</a></td>
+            </tr>
+            <tr>
+                <td>cpt_worden</td>
+                <td><p class="hlmod">Pravá ruka Hl. Moderátora</p></td>
+                <td><img src ="./images/discord-icon.png" width="20" height="20"> <a href="#" onclick="copyToClipboard('cpt_worden')">cpt_worden</a></td>
+            </tr>
+            <tr>
+                <td>cpt_arianwashere</td>
+                <td><p class="mod">Moderátor</p></td>
+                <td><img src ="./images/discord-icon.png" width="20" height="20"> <a href="#" onclick="copyToClipboard('arian11')">arian11</a></td>
+            </tr>
+            <!-- TODO členi teamu -->
+        </table>
+            <div id="forms" class="forms">
+            <h1 class="heading">Nábory do A-TEAMu</h1>
+            <h2 class="heading">Moderátor tým</h2>
+            <a href="https://forms.gle/nXmRHX5q3K8HN85y7" target="_blank"><img src="./images/panel_forms.png" width="300" height="100"></a>
+            <h2 class="heading">Editor tým</h2>
+            <a href="https://forms.gle/nmorckP4SGvwZqb18" target="_blank"><img src="./images/panel_forms.png" width="300" height="100"></a>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="tabcontent">
+        <h2>Kontakt</h2>
+        <p>Tady bude kontakt na Kapitána Vojtu.</p>
+    </section>
+    </main>
+    <footer>
+        <p>Odkaz na validaci HTML a CSS bude zde.</p>
+    </footer>
+</body>
+
+</html>
+

@@ -1,0 +1,153 @@
+body {
+    background-color: #1c1e20;
+    color: #e6e90c;
+    font-family: 'Poppins'/*'DM Sans'*/, sans-serif; 
+}
+header {
+    background-color: #482181;
+    padding: 20px;
+    flex-direction: column;
+    align-content:normal;
+    font-size: 35px;
+    color: white;
+    transition:all .3s ease;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 90% 90%, 0 100%);
+}
+
+/*prokliky*/
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/*twitch stream*/
+.twitch-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.twitch-stream, .twitch-chat {
+    width: 100%;
+    max-width: 1280px;
+    margin: 10px 0;
+}
+
+@media screen and (min-width: 720px) {
+    .twitch-container {
+        flex-direction: row;
+    }
+
+    .twitch-stream {
+        width: 70%;
+    }
+
+    .twitch-chat {
+        width: 30%;
+    }
+}
+
+/* footer*/
+footer {
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    background-color: #482181;
+    color: white;
+    text-align: center;
+    position:fixed;
+    bottom:0;
+}
+*{
+    margin: 0;
+}
+
+/*tabulky*/
+#ateam-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#ateam-table th{
+    border: 1px solid #e6e90c;
+    padding: 20px;
+    text-align: center;
+    background-color: #482181;
+    color: #e6e90c;
+}
+#ateam-table td {
+    border: 1px solid #e6e90c;
+    padding: 10px;
+    text-align: center;
+    color: #e6e90c;
+}
+
+.streamer{
+    color:#e6e90c;
+    font-weight: bold;
+}
+.hlmod{
+    color:#ff000065;
+    font-weight: bold;
+}
+.mod{
+    color:#48ff00;
+    font-weight: bold;
+}
+
+
+/*nastavení odkazů*/
+a {
+    color: #e6e90c;
+}
+
+a:hover {
+    color: #482181; 
+}
+
+.btn{
+    padding:0.8rem 3rem;
+    font-size:1rem;
+    font-weight:600;
+    border:2px solid transparent;
+    outline:none;
+    cursor:pointer;
+    text-transform: uppercase;
+    transition:all .3s ease;
+}
+.btn-primary{
+    background:#1c1e20;
+    color:#e6e90c;
+}
+
+.heading{
+    margin-top: 25px;
+    color:#e6e90c; 
+    text-align: center;
+    margin-bottom:25px;
+    line-height: 0.5;
+}
+.contact{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:3rem;
+}
+.forms{
+    margin:auto;
+    text-align: center;
+}

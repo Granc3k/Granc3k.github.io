@@ -1,0 +1,44 @@
+1: 
+Vytvořte web o minimálním rozsahu 4 dokumentů HTML validních podle normy HTML5 a vyhovujících požadavkům na well-formed HTML.
+Alternativou je single-page web s vizuální separací 4 tematických celků pomocí CSS.
+Používejte pouze HTML a CSS bez preprocesorů, postprocesorů, frameworků ...
+Odkaz na validaci každého HTML dokumentu umístěte do zápatí stránek nebo stránky.
+2:
+HTML doplňte o samostatný CSS předpis validní podle CSS3. 
+Odkaz na validaci CSS umístěte do zápatí stránek nebo stránky. 
+3:
+Stránky musí obsahovat následující elementy:
+-oddělené záhlaví, zápatí menu a obsah, vytvořené pomocí sémantických elementů HTML5 --DONE
+-menu vytvořené pomocí seznamu s příslušným stylem, -- DONE
+-odstavce a nadpisy 1 - 3 úrovně, -- DONE
+-číslovaný a nečíslovaný seznam (každý minimálně celkem 7 položek ve dvou úrovních), --TODO - bude v biu
+-odkazy z textu obsahu a odkazy na fragment stránky, --DONE
+-minimálně 3 obrázky jako součást hlavního obsahu stránky, --DONE
+-tabulku s popiskem a záhlavím, využívající spojování buněk v horizontálním i vertikálním směru, --CHECKNOUT
+-formulář obsahující minimálně 3 viditelné elementy, využívající fieldset, legend a label, -- TODO
+4:
+V CSS nastavte níže uvedené vlastnosti pro výše uvedené elementy. Barevné schéma musí byt dostatečně kontrastní pro ergonomické použití.
+-barva písma a pozadí, font a velikost písma --DONE
+-nastavení chování odkazů (navštívený, aktivní, ...) --TODO
+-nadpisy -- DONE
+-layout pomocí flex nebo grid -- DONE
+5:
+-CSS předpisem bude zajistěte responzivní chování stránky ve dvou úrovních -- CHECKNOUT
+-flexibilní rozložení obsahu v závislosti na rozlišení -- CHECKNOUT
+-responzivní menu -- TODO
+-média (obrázky, ...) rozměry a datovým objemem odpovídající dílčím responzivním layoutům -- TODO
+6:
+HTML i CSS stránek musí vyhovovat WCAG 2.0 (Level AA); proveďte online audit a vložte na konec každého HTML dokumentu odkaz na výsledek.
+
+Pro získání vyššího hodnocení nebo v případě skóre 50 - 59 bodů ze základního zadání lze získat dodatečné respektive chybějící body splněním rozšiřujících úkolů:
+
+HTML5 média (audio, video, figure, ...) (1 - 10 bodů)
+HTML5 formuláře (nové atributy a typy) (1 - 10 bodů)
+Alternativní barevné schéma a rozložení CSS (1 - 10 bodů)
+Pokročilé funkce CSS (generování obsahu, tiskový výstup apod.) (1 - 10 bodů)
+Rozšířené vlastnosti z CSS3 (animace, přechodové efekty, transformace, nové vlastnosti, vlastní fonty) (1 - 15 bodů) -- DONE
+Pokročilá responzivita CSS (širší škála podporovaných rozlišení, responzivní média, ...)  (1 - 15 bodů) 
+Využití vloženého SVG v HTML nebo CSS (1 - 5 bodů)
+Konfigurace serveru pomocí .htaccess (chybové stránky, přesměrování, heslo, omezení na základě IP adres) (1 - 10 bodů)
+Klientský JavaScript (přepínání CSS, geolokace, rozšířená validace formuláře, ...) (1 - 10 bodů)
+Odkaz na semestrální projekt vložte do e-learningu společně se seznamem splněných rozšiřujících úkolů.
