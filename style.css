@@ -445,7 +445,7 @@ li a:hover {
 }
 
 /*---------- Tablets ---------*/
-@media screen and (max-width: 1366px) {   
+@media screen and (max-width: 1365px) {   
     html {
         font-size: 80%;
     }
