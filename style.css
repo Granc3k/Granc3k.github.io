@@ -245,21 +245,12 @@ li a:hover {
     transition: all .3s ease-in-out;
 }
 
-.twitch-container {
-    width: 100%;
-    justify-content: center;
-    display: grid;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-}
-
 .twitch-stream, .twitch-chat {
     flex: 1;
-    margin: 69px;
+    margin: 60px;
 }
 .twitch-chat{
-    margin-left: 20px;
+    margin-left: auto;
 }
 .twitch-stream{
     margin-left:-50px;
@@ -441,16 +432,30 @@ li a:hover {
     }
 }
 
-
-@media screen and (max-width: 1024px) {
+/*---------- Tablets ---------*/
+@media screen and (max-width: 1366px) {   
     html {
         font-size: 80%;
     }
     .container {
         padding: 0 4.4rem;
     }
+    .detail_twitch{
+        flex-direction: column;
+    }
+    .twitch-stream{
+        display:none;
+    }
+    .twitch-chat{
+        padding-left: 50px;
+    }
+    #embed_chat {
+        width: 80vw !important;
+        height: 80vh !important;
+    }
 }
 
+/*---------- Phones ---------*/
 @media screen and (max-width: 768px) {
     html {
         font-size: 80%;
@@ -466,8 +471,22 @@ li a:hover {
         width: 60%;
         margin: auto;
     }
+    .detail_twitch{
+        display:inline-flex;
+        justify-content: center; 
+    }
+    .twitch-chat {
+        display:block;
+        padding-left: 30px;
+        margin: auto;
+    }
+    /*změnení view scalingu chatu pro mobily*/
+    #embed_chat {
+        width: 80vw !important;
+        height: 80vh !important;
+    }
 }
-
+/*---------- Small phones ---------*/
 @media screen and (max-width:600px) {
     html {
         font-size: 100%;
@@ -519,5 +538,16 @@ li a:hover {
     .images {
         width: 88%;
         margin: auto;
+    }
+    .detail_twitch{
+        display:inline-flex;
+        justify-content: center; 
+    }
+    .twitch-stream {
+        display: none;
+    }
+    .twitch-chat {
+        display:block;
+        padding: 0px;
     }
 }
