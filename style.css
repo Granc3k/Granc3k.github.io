@@ -463,7 +463,7 @@ li a:hover {
     }
     #embed_chat {
         width: 80vw !important;
-        height: 80vh !important;
+        height: 100vh !important;
     }
 }
 
@@ -495,7 +495,7 @@ li a:hover {
     /*změnení view scalingu chatu pro mobily*/
     #embed_chat {
         width: 80vw !important;
-        height: 80vh !important;
+        height: 100vh !important;
     }
 }
 /*---------- Small phones ---------*/
@@ -561,5 +561,9 @@ li a:hover {
     .twitch-chat {
         display:block;
         padding: 0px;
+    }
+    #embed_chat {
+        width: 80vw !important;
+        height: 100vh !important;
     }
 }
