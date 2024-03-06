@@ -1,21 +1,19 @@
-function openTab(tabName) {
-    var i;
-    var x = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
+
+const darkbtn = document.getElementById('darkbtn');
+const body = document.body;
+const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
+
+if (isDarkMode) {
+    body.classList.add('dark-mode');
+    darkbtn.checked = true;
+}
+
+darkbtn.addEventListener('change', () => {
+    if (darkbtn.checked) {
+        body.classList.add('dark-mode');
+        localStorage.setItem('darkMode', 'enabled');
+    } else {
+        body.classList.remove('dark-mode');
+        localStorage.setItem('darkMode', 'disabled');
     }
-    document.getElementById(tabName).style.display = "block";
-}
-
-function onLoad(){
-  openTab("bio");
-}
-
-function copyToClipboard(text) {
-  var textArea = document.createElement("textarea");
-  textArea.value = text;
-  document.body.appendChild(textArea);
-  textArea.select();
-  document.execCommand("copy");
-  document.body.removeChild(textArea);
-}
+})

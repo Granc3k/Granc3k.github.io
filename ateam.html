@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Kapitán Vojta</title>
+</head>
+
+<body>
+    <header class="container">
+        <div class="page-header">
+            <div class="logo">
+                <a href="#about">Kapitán Vojta</a>
+            </div>
+            <input type="checkbox" id="click">
+
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+            <ul>
+                <li><a href="./index.html" style="--navAni:1" >About</a></li>
+                <li><a href="" class="active" style="--navAni:2" >A-TEAM</a></li>
+                <li><a href="./stream.html" style="--navAni:3" >Stream</a></li>
+                <li><a href="./contact.html" style="--navAni:4" >Contact</a></li>
+            </ul>
+            <label class="mode">
+                <input type="checkbox" id="darkbtn">
+                <i class='bx bxs-moon'></i>
+            </label>
+        </div>
+    </header>
+
+
+    <section class="container">
+        <div class="detail">
+            <h1 class="centered-title">Zde je seznam lidí <span class="highlight">A-TEAMu</span></h1>
+            <table class="table">
+                <tr>
+                    <th>Nick</th>
+                    <th>Role</th>
+                    <th>Kontakt na <p class="social"><a href="https://discord.gg/bk4kCzS9XN" target="_blank"><i class='bx bxl-discord'></i></a></p></th>
+                </tr>
+                <tr>
+                    <td>Kapitán Vojta</td>
+                    <td><p class="streamer">Streamer</td>
+                    <td>Kapitan_Vojta</td>
+                </tr>
+                <tr>
+                    <td>cpt_Granc3k</td>
+                    <td><p class="hlmod">Hlavní Moderátor</p></td>
+                    <td>Granc3k</td>
+                </tr>
+                <tr>
+                    <td>cpt_worden</td>
+                    <td><p class="hlmod">Pravá ruka Hl. Moderátora</p></td>
+                    <td>cpt_worden</td>
+                </tr>
+                <tr>
+                    <td>cpt_arianwashere</td>
+                    <td><p class="mod">Moderátor</p></td>
+                    <td>arian11</td>
+                </tr>
+                <!-- TODO členi teamu -->
+            </table>
+                
+                
+            <h1 class="centered-title">Nábory do A-TEAMu</h1>
+            <div class="forms banner-section">
+                <div class="column">
+                    <h2 class="">Moderátor tým</h2>
+                    <a href="https://forms.gle/nXmRHX5q3K8HN85y7" target="_blank"><img src="./images/panel_forms.png" width="300" height="100"></a>
+                </div>
+                <div class="column">
+                    <h2 class="">Editor tým</h2>
+                    <a href="https://forms.gle/nmorckP4SGvwZqb18" target="_blank"><img src="./images/panel_forms.png" width="300" height="100"></a>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
