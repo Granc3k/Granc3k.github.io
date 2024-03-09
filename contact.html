@@ -42,15 +42,25 @@
         <div class="main">
             <div class="social">
                 <a href="#" style="--socialAni:1"><i class='bx bxl-twitch'></i></a>
+                <p style="--socialAni:2">Twitch</p>
                 <a href="#" style="--socialAni:2"><i class='bx bxl-instagram'></i></a>
+                <p class="--socialAni:3">Instagram</p>
                 <a href="#" style="--socialAni:3"><i class='bx bxl-youtube'></i></a>
+                <p class="--socialAni:4">Youtube</p>
                 <a href="#" style="--socialAni:4"><i class='bx bxl-discord'></i></a>
+                <p class="--socialAni:5">Discord</p>    
             </div>
             <div class="detail">
-                <h1>Zdravím, jsem <span>Kapitán Vojta</span></h1>
-                <h3>Streamer</h3>
-                <p>tady budou nějaký mrtky jako formulář a kontaktní info (instagram, dis, mail, apod.)
-                </p>
+                <h1>Zde je kontaktní formulář pro <span>Spolupráce</span></h1>
+                <form action="/submit_form" method="post">
+                    <label for="name">Jméno:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="query">Dotaz:</label><br>
+                    <textarea id="query" name="query" rows="4" cols="50"></textarea><br>
+                    <input type="submit" value="Odeslat">
+                </form>
                 
             </div>
             <div class="img-sec">
