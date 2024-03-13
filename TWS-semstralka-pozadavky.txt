@@ -28,9 +28,9 @@ Pro získání 60 bodů a hodnocení dobře je nutné splnit následující podm
 
 1.	HTML5 média (audio, video, figure, ...) (1 - 10 bodů)   DONE - ikonky pro soc sítě a darkmode
 2.	HTML5 formuláře (nové atributy a typy) (1 - 10 bodů)	DONE - spolupráce
-3.	Alternativní barevné schéma a rozložení CSS (1 - 10 bodů)	DONE - gradient texty
+3.	Alternativní barevné schéma a rozložení CSS (1 - 10 bodů)	DONE - darkmode
 4.	Pokročilé funkce CSS (generování obsahu, tiskový výstup apod.) (1 - 10 bodů)
-5.	Rozšířené vlastnosti z CSS3 (animace, přechodové efekty, transformace, nové vlastnosti, vlastní fonty) (1 - 15 bodů) DONE - animace skoro na všem i s parametry
+5.	Rozšířené vlastnosti z CSS3 (animace, přechodové efekty, transformace, nové vlastnosti, vlastní fonty) (1 - 15 bodů) DONE - animace skoro na všem i s 	parametry, gradient texty
 6.	Pokročilá responzivita CSS (širší škála podporovaných rozlišení, responzivní média, ...)  (1 - 15 bodů) DONE - pro mobily, tablety
 7.	Využití vloženého SVG v HTML nebo CSS (1 - 5 bodů)	TODO
 8.	Konfigurace serveru pomocí .htaccess (chybové stránky, přesměrování, heslo, omezení na základě IP adres) (1 - 10 bodů) IDK
