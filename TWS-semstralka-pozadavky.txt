@@ -1,0 +1,37 @@
+Pro získání 60 bodů a hodnocení dobře je nutné splnit následující podmínky:
+
+1.	Vytvořte web o minimálním rozsahu 4 dokumentů HTML validních podle normy HTML5 a vyhovujících požadavkům na well-formed HTML. - DONE
+	Alternativou je single-page web s vizuální separací 4 tematických celků pomocí CSS. - DONE
+	Používejte pouze HTML a CSS bez preprocesorů, postprocesorů, frameworků ... - DONE
+	Odkaz na validaci každého HTML dokumentu umístěte do zápatí stránek nebo stránky. - TODO
+2.	HTML doplňte o samostatný CSS předpis validní podle CSS3. - DONE
+	Odkaz na validaci CSS umístěte do zápatí stránek nebo stránky. - TODO
+3.	Stránky musí obsahovat následující elementy:
+		1. oddělené záhlaví, zápatí menu a obsah, vytvořené pomocí sémantických elementů HTML5 - DONE
+		2. menu vytvořené pomocí seznamu s příslušným stylem, - DONE
+		3. odstavce a nadpisy 1 - 3 úrovně, - DONE
+		4. číslovaný a nečíslovaný seznam (každý minimálně celkem 7 položek ve dvou úrovních), - TODO
+		5. odkazy z textu obsahu a odkazy na fragment stránky, - DONE
+		6. minimálně 3 obrázky jako součást hlavního obsahu stránky, - DONE
+		7. tabulku s popiskem a záhlavím, využívající spojování buněk v horizontálním i vertikálním směru, - DONE
+		8. formulář obsahující minimálně 3 viditelné elementy, využívající fieldset, legend a label, - DONE
+4.	V CSS nastavte níže uvedené vlastnosti pro výše uvedené elementy. Barevné schéma musí byt dostatečně kontrastní pro ergonomické použití.
+		1. barva písma a pozadí, font a velikost písma - DONE
+		2. nastavení chování odkazů (navštívený, aktivní, ...) - DONE
+		3. nadpisy - DONE
+		4. layout pomocí flex nebo grid - DONE
+5.	CSS předpisem bude zajistěte responzivní chování stránky ve dvou úrovních 
+		1. flexibilní rozložení obsahu v závislosti na rozlišení - DONE
+		2. responzivní menu - DONE
+		3. média (obrázky, ...) rozměry a datovým objemem odpovídající dílčím responzivním layoutům - DONE
+6.	HTML i CSS stránek musí vyhovovat WCAG 2.0 (Level AA) HTML; proveďte online audit a vložte na konec každého HTML dokumentu odkaz na výsledek.
+
+1.	HTML5 média (audio, video, figure, ...) (1 - 10 bodů)   DONE - ikonky pro soc sítě a darkmode
+2.	HTML5 formuláře (nové atributy a typy) (1 - 10 bodů)	DONE - spolupráce
+3.	Alternativní barevné schéma a rozložení CSS (1 - 10 bodů)	DONE - gradient texty
+4.	Pokročilé funkce CSS (generování obsahu, tiskový výstup apod.) (1 - 10 bodů)
+5.	Rozšířené vlastnosti z CSS3 (animace, přechodové efekty, transformace, nové vlastnosti, vlastní fonty) (1 - 15 bodů) DONE - animace skoro na všem i s parametry
+6.	Pokročilá responzivita CSS (širší škála podporovaných rozlišení, responzivní média, ...)  (1 - 15 bodů) DONE - pro mobily, tablety
+7.	Využití vloženého SVG v HTML nebo CSS (1 - 5 bodů)	TODO
+8.	Konfigurace serveru pomocí .htaccess (chybové stránky, přesměrování, heslo, omezení na základě IP adres) (1 - 10 bodů) IDK
+9.	Klientský JavaScript (přepínání CSS, geolokace, rozšířená validace formuláře, ...) (1 - 10 bodů)	DONE - přepínání darkmodu, možná přidání javascriptu pro html formulář
