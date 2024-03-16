@@ -495,8 +495,11 @@ li a:hover {
     }
     /*změnení view scalingu chatu pro mobily*/
     #embed_chat {
-        width: 80vw !important;
+        width: 85vw !important;
         height: 100vh !important;
+    }
+    .table{
+        left: 40px;
     }
 }
 /*---------- Small phones ---------*/
