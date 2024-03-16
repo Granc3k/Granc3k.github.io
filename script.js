@@ -17,3 +17,7 @@ darkbtn.addEventListener('change', () => {
         localStorage.setItem('darkMode', 'disabled');
     }
 })
+
+function formular(){
+    alert("Tato funkce není ještě implementována. Pokud mě i tak chcete kontaktovat, napište na Instagram, či Discord.")
+}
