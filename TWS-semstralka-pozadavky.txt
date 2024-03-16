@@ -3,14 +3,14 @@ Pro získání 60 bodů a hodnocení dobře je nutné splnit následující podm
 1.	Vytvořte web o minimálním rozsahu 4 dokumentů HTML validních podle normy HTML5 a vyhovujících požadavkům na well-formed HTML. - DONE
 	Alternativou je single-page web s vizuální separací 4 tematických celků pomocí CSS. - DONE
 	Používejte pouze HTML a CSS bez preprocesorů, postprocesorů, frameworků ... - DONE
-	Odkaz na validaci každého HTML dokumentu umístěte do zápatí stránek nebo stránky. - TODO
+	Odkaz na validaci každého HTML dokumentu umístěte do zápatí stránek nebo stránky. - DONE - ve footeru
 2.	HTML doplňte o samostatný CSS předpis validní podle CSS3. - DONE
-	Odkaz na validaci CSS umístěte do zápatí stránek nebo stránky. - TODO
+	Odkaz na validaci CSS umístěte do zápatí stránek nebo stránky. - DONE - ve footeru
 3.	Stránky musí obsahovat následující elementy:
 		1. oddělené záhlaví, zápatí menu a obsah, vytvořené pomocí sémantických elementů HTML5 - DONE
 		2. menu vytvořené pomocí seznamu s příslušným stylem, - DONE
 		3. odstavce a nadpisy 1 - 3 úrovně, - DONE
-		4. číslovaný a nečíslovaný seznam (každý minimálně celkem 7 položek ve dvou úrovních), - TODO
+		4. číslovaný a nečíslovaný seznam (každý minimálně celkem 7 položek ve dvou úrovních), - DONE
 		5. odkazy z textu obsahu a odkazy na fragment stránky, - DONE
 		6. minimálně 3 obrázky jako součást hlavního obsahu stránky, - DONE
 		7. tabulku s popiskem a záhlavím, využívající spojování buněk v horizontálním i vertikálním směru, - DONE
