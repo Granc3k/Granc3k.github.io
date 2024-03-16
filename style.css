@@ -284,6 +284,7 @@ li a.active, li a:hover {
     border: 2px solid var(--primary-color);
     margin: 0 auto;
     animation:rightSideAni 1s ease forwards;
+    align-self: center;
 }
 
 .banner-section {
@@ -509,8 +510,10 @@ li a.active, li a:hover {
         width: 90vw !important;
         height: 140vh !important;
     }
-    .table{
-        left: 40px;
+    .table {
+        width: 100%;
+        display: block;
+        font-size: 14px;
     }
 }
 /*---------- Small phones ---------*/
@@ -522,7 +525,11 @@ li a.active, li a:hover {
         height: auto;
         width:auto;
     }
-
+    .table {
+        width: 100%;
+        display: block;
+        font-size: 14px;
+    }
     ul {
         background: #fff;
         width: 100%;
