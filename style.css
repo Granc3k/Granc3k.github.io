@@ -32,6 +32,12 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+a{
+    color: var(--primary-color);
+}
+a:hover{
+    color: var(--secondary-color);
+}
 /*--------------------------- Navigation --------------------------------*/
 header {
     position: relative;
@@ -105,8 +111,7 @@ ul li a:hover::before {
     transform: scale(1, 1);
 }
 
-li a.active,
-li a:hover {
+li a.active, li a:hover {
     background: var(--primary-color);
     background: linear-gradient(to right, var(--primary-color) 0%, var(--secondary-color) 100%);
     -webkit-background-clip: text;
@@ -120,7 +125,6 @@ li a:hover {
 .menu {
     display: none;
 }
-
 
 /*------------------------------- all sites ---------------------------------*/
 .mode i {
