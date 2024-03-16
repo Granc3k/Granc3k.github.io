@@ -449,6 +449,10 @@ li a:hover {
     html {
         font-size: 80%;
     }
+    header {
+        height: auto;
+        width:auto;
+    }
     .container {
         padding: 0 4.4rem;
     }
@@ -472,6 +476,10 @@ li a:hover {
     html {
         font-size: 80%;
     }
+    header {
+        height: auto;
+        width:auto;
+    }
     .container {
         padding: 0 1.6rem;
     }
@@ -494,8 +502,8 @@ li a:hover {
     }
     /*změnení view scalingu chatu pro mobily*/
     #embed_chat {
-        width: 85vw !important;
-        height: 100vh !important;
+        width: 90vw !important;
+        height: 140vh !important;
     }
     .table{
         left: 40px;
@@ -508,6 +516,7 @@ li a:hover {
     }
     header {
         height: auto;
+        width:auto;
     }
 
     ul {
