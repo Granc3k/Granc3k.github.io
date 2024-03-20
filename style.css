@@ -513,7 +513,7 @@ li a.active, li a:hover {
     .table {
         width: 100%;
         display: block;
-        font-size: 14px;
+        font-size: 11px;
     }
 }
 /*---------- Small phones ---------*/
@@ -542,34 +542,28 @@ li a.active, li a:hover {
         left: -100%;
         z-index: 111111;
     }
-
     .menu {
         display: block;
         font-size: 1.5rem;
         font-weight: bold;
         color: #244D61;
     }
-
     #click:checked~ul {
         left: 0%;
         transition: all 0.3s ease;
     }
-
     .dark-mode .menu {
         background: linear-gradient(to right, var(--primary-color) 40%, var(--secondary-color) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-
     .dark-mode ul {
         background: var(--primary-dark);
     }
-
     .mode {
         position: absolute;
         right: 4rem;
     }
-
     .images {
         width: 88%;
         margin: auto;
@@ -588,5 +582,10 @@ li a.active, li a:hover {
     #embed_chat {
         width: 80vw !important;
         height: 100vh !important;
+    }
+    .table {
+        width: 100%;
+        display: block;
+        font-size: 11px;
     }
 }
