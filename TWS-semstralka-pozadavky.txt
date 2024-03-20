@@ -24,7 +24,7 @@ Pro získání 60 bodů a hodnocení dobře je nutné splnit následující podm
 		1. flexibilní rozložení obsahu v závislosti na rozlišení - DONE
 		2. responzivní menu - DONE
 		3. média (obrázky, ...) rozměry a datovým objemem odpovídající dílčím responzivním layoutům - DONE
-6.	HTML i CSS stránek musí vyhovovat WCAG 2.0 (Level AA) HTML; proveďte online audit a vložte na konec každého HTML dokumentu odkaz na výsledek.
+6.	HTML i CSS stránek musí vyhovovat WCAG 2.0 (Level AA) HTML; proveďte online audit a vložte na konec každého HTML dokumentu odkaz na výsledek. TODO
 
 1.	HTML5 média (audio, video, figure, ...) (1 - 10 bodů)   DONE - ikonky pro soc sítě a darkmode
 2.	HTML5 formuláře (nové atributy a typy) (1 - 10 bodů)	DONE - spolupráce
