@@ -27,6 +27,7 @@ body {
     background: var(--primary-color);
     background: linear-gradient(to right, var(--primary-color) 0%, var(--secondary-color) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 a{
@@ -105,6 +106,7 @@ li a.active, li a:hover {
     background: var(--primary-color);
     background: linear-gradient(to right, var(--primary-color) 0%, var(--secondary-color) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 #click {
@@ -121,6 +123,7 @@ li a.active, li a:hover {
     background: var(--primary-color);
     background: linear-gradient(to right, var(--primary-color) 0%, var(--secondary-color) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: 0;
     animation: rightSideAni 1.5s ease forwards;
@@ -158,6 +161,7 @@ li a.active, li a:hover {
 .social a {
     background: linear-gradient(to right, var(--primary-color) 0%, var(--secondary-color) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 1.6px solid;
     display: grid;
@@ -175,6 +179,7 @@ li a.active, li a:hover {
 }
 .social a:hover {
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: var(--primary-dark);
     background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     box-shadow: 0 0 20px;
@@ -184,6 +189,7 @@ li a.active, li a:hover {
     background: var(--primary-color);
     background: linear-gradient(to right, var(--primary-color) 20%, var(--secondary-color) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .images {
@@ -228,6 +234,7 @@ li a.active, li a:hover {
 }
 .detail button:hover {
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: var(--primary-dark);
     background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     transition: all .3s ease-in-out;
@@ -340,8 +347,8 @@ li a.active, li a:hover {
 .dark-mode .detail button { 
     background: linear-gradient(to right, var(--primary-color) 0%, var(--secondary-color) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: var(--primary-dark);
-    
 }
 .dark-mode header {
     box-shadow: 0 4px 17px rgb(80 80 80 / 31%);
@@ -558,6 +565,7 @@ li a.active, li a:hover {
     .dark-mode .menu {
         background: linear-gradient(to right, var(--primary-color) 40%, var(--secondary-color) 100%);
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     .dark-mode ul {
